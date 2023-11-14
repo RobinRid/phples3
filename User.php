@@ -7,6 +7,7 @@ class User extends Database {
     protected $conn;
 
     public function __construct($naam, $email, $wachtwoord){
+        parent::__construct();
         $this->naam = $naam;
         $this->email = $email;
         $this->wachtwoord = $wachtwoord;
