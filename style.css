@@ -1,0 +1,194 @@
+/* style.css */
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Background color */
+    color: #333; /* Text color */
+}
+
+/* Button styles */
+.button {
+    margin: 10px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px; /* Rounded edges */
+    margin-right: 10px;
+}
+
+button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Main content styles */
+#main {
+    margin: 20px;
+}
+
+.product {
+    background-color: #fff; /* White background */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px; /* Rounded edges */
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+    display: block;
+}
+
+/* Add more styles as needed */
+/* Button styles */
+#button {
+    text-align: center; /* Center-align buttons */
+}
+
+/* Product styles */
+#product {
+    text-align: center; /* Center-align product information */
+}
+
+/* Comment form styles */
+#comment form {
+    margin-top: 20px;
+    text-align: center; /* Center-align the form */
+}
+
+#comment form input[type="text"],
+#comment form textarea,
+#comment form input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#comment form input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#comment form input[type="submit"]:hover {
+    background-color: #0056b3; /* Darker color on hover */
+}
+
+/* Comment styles */
+#comment h1 {
+    font-size: 20px;
+    color: #333; /* Comment heading color */
+}
+
+#comment p {
+    font-size: 16px;
+    color: #666; /* Comment text color */
+    margin-bottom: 15px;
+}
+
+/* Comment styles */
+.comment {
+    background-color: #fff; /* White background for each comment */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.comment h1 {
+    font-size: 20px;
+    color: #333; /* Comment heading color */
+}
+
+.comment p {
+    font-size: 16px;
+    color: #666; /* Comment text color */
+    margin-bottom: 10px;
+}
+
+/* Login form styles */
+.login {
+    text-align: center; /* Center-align the login form */
+    margin-top: 20px;
+}
+
+.login form {
+    display: inline-block;
+    text-align: left; /* Align form inputs to the left within the container */
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    width: 300px; /* Adjust the width as needed */
+    margin-bottom: 20px; /* Add space below the form */
+}
+
+.login input[type="text"],
+.login input[type="email"],
+.login input[type="password"],
+.login input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 100%; /* Make the button full-width within the form */
+}
+
+.login input[type="submit"]:hover {
+    background-color: #0056b3; /* Darker color on hover */
+}
+
+/* Register button styles */
+.register {
+    text-align: center; /* Center-align the button container */
+}
+
+.register button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px; /* Rounded edges */
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.register button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Register button hover effect */
+.register button:hover {
+    background-color: #0056b3; /* Darker color on hover */
+}
